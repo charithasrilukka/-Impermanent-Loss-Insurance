@@ -1,0 +1,16 @@
+[package]
+name = "ImpermantLossInsurance"
+version = "1.0.0"
+authors = []
+
+[addresses]
+charitha_addr="0x96ce3d91ebbb038c9e8f4ad43c5a1b88e51059913cfb64f59184e617f879a467"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
